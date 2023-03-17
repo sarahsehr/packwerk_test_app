@@ -64,6 +64,7 @@ group :development do
   # gem "spring"
   gem 'ruby-graphviz'
   gem "use_packs"
+  gem "packs-rails"
 end
 
 group :test do
