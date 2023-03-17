@@ -1,0 +1,7 @@
+enforce_dependencies: true
+
+# Turn on privacy checks for this package
+# enforcing privacy is often not useful for the root package, because it would require defining a public interface
+# for something that should only be a thin wrapper in the first place.
+# We recommend enabling this for any new packages you create to aid with encapsulation.
+enforce_privacy: trues
