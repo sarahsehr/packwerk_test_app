@@ -5,3 +5,6 @@ enforce_dependencies: true
 # for something that should only be a thin wrapper in the first place.
 # We recommend enabling this for any new packages you create to aid with encapsulation.
 enforce_privacy: trues
+
+dependencies:
+ - packs/accounting
