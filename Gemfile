@@ -64,6 +64,7 @@ group :development do
   # gem "spring"
   gem 'ruby-graphviz'
   gem "use_packs"
+  gem "packwerk"
   gem "packs-rails"
 end
 

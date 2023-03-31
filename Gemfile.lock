@@ -312,6 +312,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   packs-rails
+  packwerk
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.2)
   ruby-graphviz
