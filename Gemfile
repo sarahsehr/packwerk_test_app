@@ -53,6 +53,10 @@ group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
 end
 
+gem "packwerk"
+gem "packs-rails"
+
+
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
@@ -64,8 +68,7 @@ group :development do
   # gem "spring"
   gem 'ruby-graphviz'
   gem "use_packs"
-  gem "packwerk"
-  gem "packs-rails"
+
 end
 
 group :test do
